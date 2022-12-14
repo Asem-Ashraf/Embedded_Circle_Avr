@@ -6,7 +6,8 @@
 #define PINA *((volatile u8*)0x39)
 
 int main(void){
-  DDRA|=(1<<0);
+  DDRA=0xff;
+  PORTA = 0;
   s8 i=0;
   while (1)
   {
