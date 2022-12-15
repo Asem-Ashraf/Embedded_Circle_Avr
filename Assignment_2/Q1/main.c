@@ -29,7 +29,7 @@ int main(void){
     // intialize port a to 0
     PORTA=0;
 
-    // intialize port b to 0
+    // intialize port b to 255 to use the pull-up resistor
     PORTB=255;
 
     while (1)
